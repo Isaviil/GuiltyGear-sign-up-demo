@@ -174,10 +174,10 @@ body{
 /*error msg*/
 .input-error-message{
     position: absolute;
-    bottom: -24%;
+    bottom: -21%;
     color: rgb(252, 75, 75);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.25em;
+    font-size: .95em;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -222,7 +222,8 @@ body{
 }
 
 .btnCrear p{
-    font-size: 1.1em;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .btnCrear a{
@@ -422,28 +423,54 @@ body{
     }
 
     .create-account{ 
-        min-width: 650px; 
-        min-height: 1255px;
+        min-width: 550px; 
+        min-height: 820px;
         flex-direction: column;
         align-items: center;
         height: 95%;
-        width: 60%;
-        
+        width: 50%;        
     }
 
     .left-side{
-        height: 40%;
+        height: 25%;
         width: 100%;
     }
 
     .right-side{
-        width: 100%;
-       
+       height: 75%;
+       width: 100%;
+       gap: 0;
+       padding: 10px 10px;
+       justify-content: space-evenly;
     }
 
     .right-side .user-inputs{
-        height: 80%;
+        height: 70%;
         min-width: 570px;
+    }
+    
+
+    .user-inputs .user-inputs-element{        
+        width: 53%;
+    }
+    
+    .user-inputs-element input{
+        height: 30px;
+        font-size: 1.23em;
+    }
+
+    .user-inputs-element label{
+        font-size: 1.28em;
+    }
+
+    .input-error-message{
+        bottom: -25%;
+        font-size: .85em;
+    }
+
+    .btnCrear button{
+        padding: 7px 35px;
+        font-size: 1.2em;
     }
 }
 
@@ -455,21 +482,26 @@ body{
     }
 
     .create-account{
-        max-height: 1000px;
-        min-width: 445px;
-        min-height: 895px;
-        height: 100%;
-        width: 85%;
+        max-height: 820px;
+        min-width: 450px; 
+        min-height: 690px;
+        flex-direction: column;
+        align-items: center;
+        height: 95%;
+        width: 50%;  
     }
     
 
     .left-side{
-        height: 20%;
+        height: 30%;
     }
 
     .right-side{
-        height: 80%;
-        
+       height: 70%;
+       width: 100%;
+       gap: 0;
+       padding: 10px 10px;
+       justify-content: space-between;
     }
 
     .logo-title{
@@ -477,7 +509,9 @@ body{
     }
 
     .right-side .user-inputs{
-        width: 100%;
+        width: 70%;
+        height: 85%;
+        justify-content: space-evenly;
         min-width: unset;
     }
 
@@ -486,9 +520,13 @@ body{
         width: 90%;
     }
 
-    .input-error-message{
-        bottom: -35%;
+    .user-inputs-element input{
         font-size: 1.1em;
+    }
+
+    .input-error-message{
+        bottom: -34%;
+        font-size: .83em;
     }
 
     .confirmation-message{
@@ -504,14 +542,28 @@ body{
         font-size: 1.4em;
     }
 
+    .btnCrear button{
+        padding: 10px 25px;
+        font-size: 1.2em;
+    }
+
+    .btnCrear p{
+        font-size: .9em;
+    }
+
+    .bi-x-circle{
+        font-size: 1.5em;
+    }
+
 }
 
 
 @media (max-width: 480px){
     .create-account{
-        max-height: 780px;
-        min-width: 378px;
-        min-height: 765px;
+        max-height: 650px;
+        min-width: 358px;
+        max-width: 460px;
+        min-height: 560px;
         height: 100%;
         width: 100%;
         display: flex;
@@ -520,30 +572,44 @@ body{
     }
 
     .left-side{
-        display: none;
+        height: 15%;
+        width: 90%;
     }
 
     .right-side{
-        height: 95%;
-        width: 95%;
+       height: 85%;
+       width: 90%;
+       gap: 0;
+       padding: 5px 10px;
+       justify-content: space-evenly;
+    }
+
+    .right-side .user-inputs{
+        width: 89%;
+        min-width: unset;
     }
 
     .user-inputs-element label{
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 
     .input-error-message{
-        bottom: -22%;
-        font-size: .99em;
+        bottom: -33%;
+        font-size: .75em;
     }
 
     .user-inputs-element input{
-        height: 35px;
-        font-size: 1.3em;
+        height: 28px;
+        font-size: 1.15em;
     }
 
     .btnCrear button{
-        padding: 10px 45px;
+        padding: 7px 20px;
+        font-size: 1em;
+    }
+
+    .btnCrear p{
+        font-size: .75em;
     }
 
     .confirmation-message{
@@ -557,6 +623,10 @@ body{
     .confirmation-options a{
         padding: 5px 45px;
         font-size: 1.2em;
+    }
+
+    .bi-x-circle{
+        font-size: 1.5em;
     }
 
 }
