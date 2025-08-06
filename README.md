@@ -1,13 +1,13 @@
-HTML, CSS, and JavaScript files for the responsive Guilty Gear-inspired user registration interface.
-Includes basic form validation, success modal, media, and GSAP animations.
-Frontend-only version, intended as a visual demo for portfolios.
+Práctica de creación de una interfaz de creación de usuario.
+Se incluye validación básica, un modal de éxito, media y animaciones con GSAP.
+Solo incluye frontend.
 
-🎨 Credits
-Character artwork used in this interface belongs to Arc System Works.
+🎨 Creditos
+Los personajes en esta interfaz pertenecen a Arc System Works.
 
-Background and interface art adapted from work by DatCravat
-🔗 https://datcravat.artstation.com
+Las imágenes usadas son propiedad de datcravat
+🔗 https://www.instagram.com/datcravat/
 
-This project is for educational and non-commercial purposes only.
+
 
 
